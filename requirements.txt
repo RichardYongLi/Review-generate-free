@@ -2,6 +2,5 @@ Bio==1.6.2
 biopython==1.83
 html2text==2024.2.26
 pandas==1.5.2
-pywinauto==0.6.8
 Requests==2.31.0
-selenium==4.18.1
+
