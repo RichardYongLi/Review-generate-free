@@ -47,7 +47,7 @@ with open(local_url + ".html", "a", encoding="utf-8") as file:
     while should_continue:
         for j in range(0,int(total)//10+1):
             url="https://pubmed.ncbi.nlm.nih.gov/"+"?term="+key+"&page="+str(j+1)
-            data=requests.get(url,params={"term":key}).text
+            data=requests.get(url,params={"term":key}, timeout=10).text
             pat1_content_url='<div class="docsum-wrap">.*?<.*?href="(.*?)".*?</a>'
             content_url=re.compile(pat1_content_url,re.S).findall(data)
             hd={'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:76.0) Gecko/20100101 Firefox/76.0','User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3741.400 QQBrowser/10.5.3863.400'}
