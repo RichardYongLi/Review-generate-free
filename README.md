@@ -7,3 +7,8 @@ Semi-automatic combine abstract from Pubmed and use kimi to generate review (fre
 后面会继续改进的。
 prompt和download脚本也参考了网上很多博文，就不一一列举了（主要是我不记得了，(。・＿・。)ﾉI’m sorry~）
 有什么问题欢迎大家提出（如果有大佬愿意搞个稳定的自动化脚本那就更好了hhh）
+
+更新v1
+1. 添加了2024年SCI新IF及JCR分区可供查询
+2. 完善了获取数量的判定
+![1720762529384](https://github.com/user-attachments/assets/a6f96db9-ea5b-427d-92de-5f4b86a14b13)
