@@ -11,4 +11,5 @@ prompt和download脚本也参考了网上很多博文，就不一一列举了（
 更新v1
 1. 添加了2024年SCI新IF及JCR分区可供查询
 2. 完善了获取数量的判定
+   
 ![1720762529384](https://github.com/user-attachments/assets/a6f96db9-ea5b-427d-92de-5f4b86a14b13)
